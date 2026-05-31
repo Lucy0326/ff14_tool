@@ -260,7 +260,7 @@
 
         function requestNotificationPermission() {
             Notification.requestPermission().then(permission => {
-                if (permission === "granted") { checkNotificationStatus(); new Notification("Submarine Voyager 計時器", { body: "測試通知：成功開啟潛水艇回港提醒！" }); }
+                if (permission === "granted") { checkNotificationStatus(); new Notification("Submerge DiveClock 計時器", { body: "測試通知：成功開啟潛水艇回港提醒！" }); }
             });
         }
 
